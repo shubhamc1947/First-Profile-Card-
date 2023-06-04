@@ -1,0 +1,172 @@
+/* media query */
+
+@media (max-width: 1130px) {
+
+    .wrap {
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        padding: 10px;
+    }
+
+    .me img {
+        margin: 10px;
+    }
+
+}
+
+@media (max-width: 950px) {
+    .name {
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+
+    .degis {
+        font-size: 0.8rem;
+    }
+
+
+
+
+    .gmail{
+        margin:0 6px;
+        width:35px;
+        height: 35px;
+
+    }
+    .gmail:hover {
+        width: 38px;
+        height: 38px;
+    }
+    .tel {
+        margin: 0 6px;
+        width: 35px;
+        height: 35px;
+
+    }
+
+    .tel:hover {
+        width: 38px;
+        height: 38px;
+    }
+
+    .linkedin {
+        margin: 0 6px;
+        width: 35px;
+        height: 35px;
+
+    }
+
+    .linkedin:hover {
+        width: 38px;
+        height: 38px;
+    }
+    
+    .github {
+        margin: 0 6px;
+        width: 35px;
+        height: 35px;
+
+    }
+
+    .github:hover {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+@media (max-width:760px) {
+    .me img{
+        width:150px;
+        margin:5px;
+    }
+    .name {
+        font-size: 1.8rem;
+        margin-top: 13px;
+    }
+
+    .degis {
+        font-size: 0.6rem;
+    }
+    .obj {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .gmail {
+        margin: 0 4px;
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .gmail:hover {
+        width: 33px;
+        height: 33px;
+    }
+
+    .tel {
+        margin: 0 4px;
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .tel:hover {
+        width: 33px;
+        height: 33px;
+    }
+
+    .linkedin {
+        margin: 0 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .linkedin:hover {
+        width: 33px;
+        height: 33px;
+    }
+
+    .github {
+        margin: 0 4px;
+        width: 30px;
+        height: 30px;
+    }
+    .github:hover {
+        width: 33px;
+        height: 33px;
+    }
+    
+}
+
+@media (max-width:690px) {
+    .wrap{
+        width:50%;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .wrap {
+        width: 60%;
+    }
+
+}
+@media (max-width:470px) {
+    .wrap {
+        width: 70%;
+    }
+}
+
+@media (max-width:400px) {
+    .wrap {
+        width: 80%;
+        height: 80%;
+    }
+}
+@media (max-width:370px) {
+    .wrap {
+        width: 85%;
+        height: 85%;
+    }
+}
